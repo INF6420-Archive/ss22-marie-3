@@ -24,7 +24,7 @@ Main content- will display a resume, literacy portfolio project, and a presentat
 
 Footer- will display copyright info
 
-![Wireframe](wireframes\wireframes.jpg)
+![Wireframe](wireframes/wireframes.jpg)
 
 Header- navigation menu will implement links to other pages
 
