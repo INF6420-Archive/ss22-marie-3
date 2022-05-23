@@ -6,7 +6,7 @@ A portfolio site showcasing my work.
 
 This is a basic overview of how the site may look.
 
-![Wireframe](wireframes\wireframes.jpg)
+![Wireframe](wireframes/wireframes.jpg)
 
 Header- navigation menu will implement links to other pages
 
@@ -14,7 +14,7 @@ Main content- will display a portfolio project and blog post
 
 Footer- will display copyright info
 
-![Wireframe](wireframes\wireframes.jpg)
+![Wireframe](wireframes/wireframes.jpg)
 
 Header- navigation menu will implement links to other pages
 
@@ -24,7 +24,7 @@ Main content- will display a resume, literacy portfolio project, and a presentat
 
 Footer- will display copyright info
 
-![Wireframe](wireframes\wireframes.jpg)
+![Wireframe](wireframes/wireframes.jpg)
 
 Header- navigation menu will implement links to other pages
 
