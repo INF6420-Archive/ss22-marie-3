@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marie McKessy- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="main-menu">
+            <a href="index.html" class="site-name"><img src="Marie McKessy logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon" aria-label="Toggle for menu">
+            </span></label>
             <ul>
                 <li><a href="aboutmarie.html">about marie</a></li>
                 <li><a href="workexamples.html">work examples</a></li>
@@ -16,6 +21,7 @@
         </nav>
     </header>  
     <main>
+        <div class="featured-text-container"><img src="images/clouds.jpg"></div>
         <div>
             <h1>Section title</h1>
             <p>Lorem ipsum dolor sit amet, consectetuer adipisc</p>
@@ -25,8 +31,8 @@
             <h2>Link to blog post</h2>
         </div>
     </main>  
-    <footer>    
-        <div>
+    <footer>  
+        <div class="footer-column">
             <h2>copyright 2022</h2>
         </div>
     </footer>
