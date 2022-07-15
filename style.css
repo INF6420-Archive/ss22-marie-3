@@ -5,9 +5,6 @@
     margin: 0;
 }
 
-button,
-input,
-select,
 textarea {
   font-family: sans-serif;
   font-size: 100%;
@@ -47,4 +44,35 @@ img {
 
 address {
     font-style: normal;
+}
+
+.form-input {
+ border: 2px solid rgb(238, 225, 249);
+ font-size: 16px;
+ font-weight: 400;
+ padding: 1em;
+ margin-bottom: 1.5em;
+ width: 100%;
+}
+
+[type= "submit"] {
+    background: rgb(131, 12, 243);
+    color: rgb(238, 225, 249);
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: .5em;
+    cursor: pointer;
+}
+
+[type="submit"]:hover
+[type="submit"]:focus {
+    background:  rgb(131, 12, 243);
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
 }
