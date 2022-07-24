@@ -1,5 +1,49 @@
 */ {@import url("https://fonts.googleapis.com/css?family=Roboto");} */
 
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(147, 129, 255);
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(131, 12, 243);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .boxhead a {
+    color: rgb(131, 12, 243);
+    text-decoration: none;
+}
+
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color:rgb(147, 129, 255);
+    color: rgb(131, 12, 243);
+  }
+
+/* mouse over link */
+a:hover {
+    color: rgb(226, 66, 17);
+  }
+  
+
 * {box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -14,6 +58,30 @@ textarea {
 }
 
 
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+h3 {
+    font-size: 1em;
+  }
+
+p {
+  font-size: 0.875em;
+}
+
+footer {
+font-size: 0.875em}
+
+
 
 p {
     margin-top: 100px;
@@ -26,28 +94,37 @@ textarea {
   overflow: auto;
 }
 
+* {
+
+    text-align: center;
+    
+    }
+
+h1 {
+    text-align: center;
+    }
+
 body {
-    background-color: rgb(131, 12, 243);    
-    color: rgb(238, 225, 249);
+    background-color:rgb(248, 247, 255);    
+    color: rgb(147, 129, 255);
     font-family:  sans-serif;
     font-weight: 300; /* Light */;
     font-size: 16px; line-height: 1.5;
 }
 
-a {
-    color: rgb(238, 225, 249);    
-}
-
-img {
-    max-width: 75%;
-}  
 
 address {
     font-style: normal;
 }
 
+.footer {
+    background-color: rgb(248, 247, 255);
+    text-align: center;
+    padding: 10px;
+  }
+
 .form-input {
- border: 2px solid rgb(238, 225, 249);
+ border: 2px solid rgb(131, 12, 243);
  font-size: 16px;
  font-weight: 400;
  padding: 1em;
@@ -55,9 +132,17 @@ address {
  width: 100%;
 }
 
+form {
+    width: 550px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+   }
+   
+
 [type= "submit"] {
-    background: rgb(131, 12, 243);
-    color: rgb(238, 225, 249);
+    background:  rgb(147, 129, 255);
+    color: rgb(255, 238, 221);
     width: 100%;
     font-size: 1.5em;
     font-weight: 700;
@@ -69,10 +154,13 @@ address {
 
 [type="submit"]:hover
 [type="submit"]:focus {
-    background:  rgb(131, 12, 243);
+    background:  rgb(147, 129, 255)
 }
 
 textarea {
     height: 150px;
     resize: vertical;
 }
+
+
+   
