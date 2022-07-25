@@ -5,24 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marie McKessy- Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/32a75b2b86.js" crossorigin="anonymous"></script>
+
+    
+        <style> 
+            input[type=text] {
+              width: 65%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              box-sizing: border-box;
+            }
+            </style>
+        
 </head>
+
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="aboutmarie.html">about marie</a></li>
-                <li><a href="workexamples.html">work examples</a></li>
-                <li><a href="contactmarie.html">contact marie</a></li>
-            </ul>
+        <nav class="main-menu">
+            <h1>
+                <b>
+                Contact Marie
+            </b>
+            </h1>
+
+            <label class="menu-icon" for="menu-btn"><span class="navicon" aria-label="Toggle for menu">
+            </span></label>
+            
         </nav>
     </header>  
+
     <main>
         
+        <h2>
+        <form action="https://formspree.io/f/mqknvoay" method="post">
+            <label for="name">Name</label>
+            <input name="Name" id="name" type="name" class="form-input">
+            <label for="email">Email</label>
+            <input name="Email" id="email" type="email" class="form-input">
+            <label for="message">Message</label>
+            <textarea id= "message" name="Message" type= "message" class="form-input" rows="4"></textarea>
+            
+            <button type="submit">Submit</button>
+
+          </form>
+        </h2>
     </main>  
     <footer>    
         <div>
-            <h2>copyright 2022</h2>
+            <footer>Copyright 2022</footer>
         </div>
     </footer>
 </body>
-</html>
+</html> 
